@@ -1,7 +1,35 @@
-env
+# Environment variables
+.env
+
+# Sensitive data
 *.csv
 *.xlsx
-*.pkl
-*.joblib
+*.xls
+*.json
+
+# Python
 __pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
 .ipynb_checkpoints/
+
+# Model files
+*.pkl
+*.pickle
+*.joblib
+*.h5
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
